@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+
+
+
 <body>
-    <h1 class="bg-red-500 text-blue-500">Teste</h1>
-    
+    <section class="bg-[#E5C643] py-24 sm:py-32 md:py-36 px-4 sm:px-6 flex flex-col items-center text-center mt-16">
+        <h2
+            class="text-white text-3xl sm:text-4xl md:text-5xl font-black tracking-wider uppercase leading-tight max-w-3xl">
+            JOIN SHOPPING COMMUNITY TO<br class="hidden sm:inline"> GET MONTHLY PROMO
+        </h2>
+        <p
+            class="text-white text-base sm:text-xl md:text-2xl tracking-wide mt-4 sm:mt-6 mb-8 sm:mb-10 font-normal opacity-95">
+            Type your email down below and be young wild generation
+        </p>
+        <form class="w-full max-w-lg" onsubmit="event.preventDefault();">
+            <div class="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-white flex items-center shadow-lg">
+                <input type="email" placeholder="Add your email here"
+                    class="flex-1 px-4 sm:px-6 py-2.5 sm:py-3 text-gray-800 placeholder-gray-400 outline-none text-base sm:text-lg bg-transparent"
+                    required>
+                <button type="submit"
+                    class="bg-black text-white px-7 sm:px-10 py-3 sm:py-3.5 rounded-lg sm:rounded-xl font-bold tracking-wider hover:bg-neutral-800 transition-colors uppercase text-sm sm:text-base cursor-pointer">
+                    SEND
+                </button>
+            </div>
+        </form>
+    </section>
+
+
 </body>
+
 </html>
