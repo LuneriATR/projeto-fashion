@@ -1,29 +1,224 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion</title>
+    <title>Fashion - Let's Explore Unique Clothes</title>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </head>
-<body>
-    <div id="banner">
-        <div class="banner-img">
-            <img src="Assets/image 12.png" alt="imagem">
-        </div>
-        <div class="banner-content">
-            <div class="titulo">
-                   <h1>PAYDAY SALE NOW</h1> 
+
+<body class="bg-white text-black min-h-screen flex flex-col justify-between">
+
+    <header class="flex justify-between items-center px-6 md:px-14 lg:px-20 py-8 max-w-[1440px] mx-auto w-full">
+        <a href="#" class="flex items-center gap-3 font-black text-2xl tracking-wider text-black">
+            <img src="./assets/logo.png" alt="Logo Fashion" class="h-7 w-auto">
+            <span>FASHION</span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 lg:gap-14 font-medium text-sm lg:text-base tracking-wider text-neutral-800">
+            <a href="#" class="hover:text-black transition">CATALOGUE</a>
+            <a href="#" class="hover:text-black transition">FASHION</a>
+            <a href="#" class="hover:text-black transition">FAVOURITE</a>
+            <a href="#" class="hover:text-black transition">LIFESTYLE</a>
+            <a href="#" class="bg-black text-white px-6 py-3 rounded-[7px] font-semibold tracking-wider hover:bg-neutral-800 transition">SIGN UP</a>
+        </nav>
+    </header>
+
+    <main class="w-full flex-1">
+
+        <section class="px-6 md:px-14 lg:px-20 py-2 max-w-[1440px] mx-auto w-full">
+            <div class="bg-[#F4F6F5] rounded-[59px] px-8 md:px-16 lg:px-20 pt-10 md:pt-16 flex flex-col lg:flex-row items-center justify-between relative overflow-hidden">
+                <div class="flex-1 z-10 pb-10 lg:pb-16 text-center lg:text-left">
+                    <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-[76px] xl:text-[84px] font-black leading-[1.08] tracking-tight text-black">
+                        <span class="bg-white px-6 py-1.5 inline-block -rotate-2 shadow-xs">LET’S</span><br>
+                        EXPLORE<br>
+                        <span class="bg-[#EBD96B] px-6 py-1.5 inline-block -rotate-2 my-1">UNIQUE</span><br>
+                        CLOTHES.
+                    </h1>
+
+                    <p class="mt-7 text-[#191818] text-lg sm:text-xl lg:text-2xl font-normal max-w-md mx-auto lg:mx-0 leading-relaxed">
+                        Live for Influential and Innovative fashion!
+                    </p>
+
+                    <div class="mt-8 flex items-center justify-center lg:justify-start gap-6">
+                        <svg class="w-32 sm:w-40 h-auto" viewBox="0 0 190 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 30.6152C48 -11.7848 146.667 -1.05149 190 9.61518C176.4 33.6152 57.6667 33.6152 0 30.6152Z" fill="#EBD96B"/>
+                        </svg>
+                        <a href="#" class="bg-black text-white px-9 py-4 rounded-[10px] font-semibold text-base sm:text-lg hover:bg-neutral-800 transition shadow-sm">
+                            Shop Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex-1 flex justify-center lg:justify-end items-end relative min-h-[380px] lg:min-h-[540px] w-full">
+                    <i class='bx bxs-star text-[#E0E0E0] text-3xl absolute top-[8%] left-[2%] pointer-events-none'></i>
+                    <i class='bx bxs-star text-[#E0E0E0] text-2xl absolute top-[14%] right-[8%] pointer-events-none'></i>
+                    <i class='bx bxs-star text-[#E0E0E0] text-2xl absolute bottom-[10%] left-[8%] pointer-events-none'></i>
+                    <i class='bx bxs-star text-[#E0E0E0] text-4xl absolute bottom-[16%] right-[5%] pointer-events-none'></i>
+
+                    <img 
+                        src="./assets/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" 
+                        alt="Modelo com casaco rosa" 
+                        class="max-h-[460px] lg:max-h-[540px] xl:max-h-[580px] w-auto object-contain z-10 block"
+                    >
+                </div>
             </div>
-            <p>Spend minimal $100 get 30% off
-            voucher code for your next purchase</p>   
-            <p>1 June - 10 June 2021</p>
-            <p>*Terms & Conditions apply</p>
+        </section>
+
+        <section class="bg-[#EBD96B] w-full py-10 md:py-12 mt-8">
+            <div class="max-w-[1440px] mx-auto px-6 md:px-14 flex flex-wrap items-center justify-around gap-8">
+                <img src="./assets/hm.png" alt="H&M" class="h-8 md:h-10 w-auto object-contain">
+                <img src="./assets/obey.png" alt="OBEY" class="h-7 md:h-9 w-auto object-contain">
+                <img src="./assets/shopify.png" alt="Shopify" class="h-8 md:h-10 w-auto object-contain">
+                <img src="./assets/lacoste.png" alt="Lacoste" class="h-8 md:h-10 w-auto object-contain">
+                <img src="./assets/levis.png" alt="Levi's" class="h-8 md:h-10 w-auto object-contain">
+                <img src="./assets/amazon.png" alt="Amazon" class="h-8 md:h-10 w-auto object-contain">
+            </div>
+        </section>
+
+        <section id="Arthur" class="max-w-[1440px] mx-auto px-6 md:px-14 lg:px-20 py-12 md:py-16">
+            <div id="novidades">
+                <div class="texto">
+                    <h1><span class="detalhe">NOVIDADES</span></h1>
+                </div>   
+                <div class="grade">
+                    <div class="roupa1">
+                        <img src="./Assets/Foto 1.png" alt="Capuz & Moletons">
+                        <p>Capuz & Moletons</p>
+                        <a href="#">Compre Agora! <i class='bx bx-right-arrow-alt text-2xl text-[#7F7F7F]'></i></a>
+                    </div>
+
+                    <div class="roupa2">
+                        <img src="./Assets/Foto 2.png" alt="Casacos & Jaquetas">
+                        <p>Casacos & Jaquetas</p>
+                        <a href="#">Compre Agora! <i class='bx bx-right-arrow-alt text-2xl text-[#7F7F7F]'></i></a>
+                    </div>
+
+                    <div class="roupa3">
+                        <img src="./Assets/Foto 3.png" alt="Camisetas e Regatas">
+                        <p>Camisetas e Regatas</p>
+                        <a href="#">Compre Agora! <i class='bx bx-right-arrow-alt text-2xl text-[#7F7F7F]'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESPAÇO RESERVADO PARA A IMPLEMENTAÇÃO DA LAURA: seção PAYDAY SALE NOW -->
+         <div id="banner">
+            <div class="banner-img">
+                <img src="Assets/img.png" alt="imagem">
+            </div>
+            <div class="Star-img">
+                <img src="Assets/Star 1.png" alt="imagem">
+                <img src="Assets/Star 2.png" alt="imagem">
+                <img src="Assets/Star 3.png" alt="imagem">
+                <img src="Assets/Star 4.png" alt="imagem">
+            </div>
+            <div class="banner-content">
+                <div class="titulo">
+                    <h1>PAYDAY</h1>
+                    <h2>SALE NOW</h2>
+                </div>
+                <p>Sped minimal $100 get 30% off
+                    voucher code for your next purchase
+                </p>
+                <div>
+                <p>1 june - 10 june 2021</p>
+                <p>*Terms & conditions apply</p>
+                </div>
+                <div class="botao">
+                    <button>SHOP NOW</button>
+                </div>
+            </div>
+         </div>
+
+        <section id="Pamela" class="max-w-[1440px] mx-auto px-6 md:px-14 lg:px-20 py-16 md:py-24">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
+                <div class="flex-1 max-w-xl text-center lg:text-left">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black uppercase tracking-tight text-black leading-tight mb-6">
+                        DOWNLOAD APP &<br>GET THE VOUCHER!
+                    </h2>
+                    <p class="text-base sm:text-xl text-[#7F7F7F] font-medium leading-relaxed mb-8 max-w-md mx-auto lg:mx-0">
+                        Get 30% off for first transaction using Rondovision mobile app for now.
+                    </p>
+                    <div class="flex items-center justify-center lg:justify-start">
+                        <img src="./images/img-stores-download.png" alt="Disponível na App Store e Google Play" class="h-12 md:h-14 w-auto object-contain cursor-pointer">
+                    </div>
+                </div>
+                <div class="flex-1 flex justify-center lg:justify-end items-center">
+                    <img class="w-full max-w-[380px] md:max-w-[480px] lg:max-w-[520px] h-auto object-contain" src="./images/img-celular-download.png" alt="Aplicativo Rondovision">
+                </div>
+            </div>
+        </section>
+
+        <section id="Koli" class="bg-[#E5C643] w-full py-24 sm:py-28 md:py-36 px-4 sm:px-6 flex flex-col items-center text-center">
+            <h2 class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-[55px] font-black tracking-wide uppercase leading-[1.15] max-w-4xl">
+                <span class="sm:whitespace-nowrap">JOIN SHOPPING COMMUNITY TO</span><br class="hidden sm:inline">
+                <span class="sm:whitespace-nowrap">GET MONTHLY PROMO</span>
+            </h2>
+            <p class="text-white text-base sm:text-xl md:text-2xl tracking-normal mt-4 sm:mt-6 mb-10 md:mb-12 font-normal opacity-95 max-w-2xl">
+                Type your email down below and be young wild generation
+            </p>
+            <form class="w-full max-w-[574px]" onsubmit="event.preventDefault();">
+                <div class="p-2 sm:p-2.5 rounded-[10px] bg-white flex items-center shadow-md">
+                    <input type="email" placeholder="Add your email here"
+                        class="flex-1 px-4 sm:px-6 py-3 sm:py-3.5 text-gray-800 placeholder-[#767676] outline-none text-base sm:text-xl bg-transparent"
+                        required>
+                    <button type="submit"
+                        class="bg-black text-white px-7 sm:px-10 py-3 sm:py-4 rounded-[8px] font-bold tracking-wider hover:bg-neutral-800 transition-colors uppercase text-sm sm:text-base cursor-pointer">
+                        SEND
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="bg-black w-full text-white">
+        <div class="max-w-[1440px] mx-auto px-6 md:px-14 lg:px-20 py-16 md:py-20 flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
+            <div class="max-w-sm">
+                <h1 class="text-white font-extrabold text-3xl md:text-4xl tracking-wider mb-5">FASHION</h1>
+                <p class="text-stone-400 text-sm md:text-base leading-relaxed mb-6">Complete your style with awesome clothes from us.</p>
+                <div class="flex items-center gap-3">
+                    <a class="w-10 h-10 bg-[#E5C643] rounded-lg flex items-center justify-center text-black hover:opacity-90 transition text-xl" href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a class="w-10 h-10 bg-[#E5C643] rounded-lg flex items-center justify-center text-black hover:opacity-90 transition text-xl" href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a class="w-10 h-10 bg-[#E5C643] rounded-lg flex items-center justify-center text-black hover:opacity-90 transition text-xl" href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a class="w-10 h-10 bg-[#E5C643] rounded-lg flex items-center justify-center text-black hover:opacity-90 transition text-xl" href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-12 lg:gap-20">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-white font-semibold text-base mb-1">Company</h2>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">About</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Contact us</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Support</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Careers</a>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-white font-semibold text-base mb-1">Quick Link</h2>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Share Location</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Orders Tracking</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Size Guide</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">FAQs</a>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-white font-semibold text-base mb-1">Legal</h2>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Terms & conditions</a>
+                    <a class="text-stone-400 hover:text-white transition text-sm" href="#">Privacy Policy</a>
+                </div>
+            </div>
         </div>
-        <div class="botao">
-            <h1>SHOP NOW</h1>
-        </div>
-    </div>
+    </footer>
+
 </body>
+
 </html>
